@@ -18,5 +18,5 @@ cp {template,}.aider.conf.yml
 Generate file
 
 ```shell
-
+aider --no-gitignore --config .aider.conf.yml --message-file ./prompts/generate_server.md src/ai_codegen_example/main.py
 ```
